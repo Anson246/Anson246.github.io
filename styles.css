@@ -6,9 +6,30 @@ body{
     background-size: cover;
     height: 100vh;
 }
+ .hii{
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    animation-name: example;
+    animation-duration: 20s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {background-color:white; left: 1700px; top:0px;}
+    50%  {background-color:white; right:0px; top:550px;}
+    75%  {background-color:white; right:0px; top:550px;}
+    100% {background-color:white; left:0px; top:0px;}
+  }
+h1{
+    color: goldenrod;
+}
 
-.button{
+ .button{
     margin-top: 34px;
+    position: relative;
+    top: 0%;
  }
 .btn{
     padding: 10px 10px;
